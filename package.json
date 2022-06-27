@@ -16,6 +16,7 @@
     "moment": "^2.29.3"
   },
   "devDependencies": {
-    "@types/express": "^4.17.13"
+    "@types/express": "^4.17.13",
+    "morgan": "^1.10.0"
   }
 }
