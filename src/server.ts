@@ -1,6 +1,6 @@
+import 'dotenv';
 import express from 'express';
 import morgan from 'morgan';
-import 'dotenv';
 import { router } from './routes';
 
 const port = 3000

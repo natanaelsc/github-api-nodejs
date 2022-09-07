@@ -2,7 +2,6 @@ import moment from "moment";
 import { Repo } from "../types/Repo";
 import { TrendingRepo } from "../types/TrendingRepo";
 
-// get the date
 const getDate = (date: string) => {
     if (date === undefined)
       return moment().subtract(30, 'days').format('YYYY-MM-DD');
@@ -49,4 +48,4 @@ export {
     getDate,
     getTrendingRepos,
     pushNonNullRepos,
-}
+};
